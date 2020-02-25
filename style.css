@@ -1,0 +1,228 @@
+body {
+    color: white;
+    font-family: 'Lato';
+}
+nav {
+    background-color: black;
+    height: 60px;
+    width: 98.5%;
+    padding: 5px;
+    position: fixed;
+    opacity: 0.65;
+}
+section {
+    background-color: orange;
+    height: 800px;
+    background-color: #f037a5;
+  background: linear-gradient(#f037a5 -60%, #fae62d 140%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(-60%, #f037a5),
+    color-stop(140%, #fae62d)
+  );
+}
+footer {
+    background-color: black;
+    height: 500px;
+
+}
+.logo {
+    width: 132px;
+    height: 41.88px;
+}
+.hero-img {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://www.scdn.co/i/home/hero-burst.svg");
+    display: flex;
+    justify-content: center;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+.container {
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1170px;
+    align-items: center;
+}
+
+.container > ul {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+ul > li {
+    list-style: none;
+    margin-right: 15px;
+}
+ul > li > a {
+    text-decoration: none;
+}
+.nav-menu {
+    color: white;
+    opacity: 1;
+}
+.nav-menu >li > a {
+    color: white;
+    font-size:20px;
+}
+.nav-menu > li > a:hover {
+    color:green;
+}
+section .container {
+    flex-direction: column;
+    justify-content: center;
+}
+#title {
+    color: white;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 1.15;
+    text-align: center;
+    margin-bottom: 2px;
+    letter-spacing: -0.04cm;
+}
+#undertitle {
+    color: white;
+    font-size: 25px;
+    text-align:center;
+    font-weight: 900;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+.btn {
+    border: 0px;
+    width: 260px;
+    color: white;
+    margin: 0 auto;
+    line-height: 1;
+    font-size: 14px;
+    margin-top: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 500px;
+    padding: 18px 42px 18px;
+    background-color: rgb(43, 250, 43);
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.btn:hover {
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(92, 250, 92);
+}
+footer .container {
+    display: flex;
+    flex-direction: column;
+}
+.column > h1 {
+    font-size: 22px;
+}
+.column > p {
+    font-size: 15px;
+}
+.column > h1, a {
+    margin-bottom: 15px;
+}
+.footer-logo {
+    display: flex;
+}
+.footer-logo > h1 {
+    color: white;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.footer-icons {
+    flex: 3;
+    display: flex;
+    justify-content: flex-start;
+}
+.footer-icons > .fab {
+    margin: 5px;
+}
+.footer-icons > .fab:hover {
+    color: green;
+}
+.footer {
+    display: flex;
+    padding: 20px;
+}
+.column {
+    flex: 1;
+    margin: 10px;
+    padding: 50px;
+}
+.container > .left {
+    flex: 1;
+    justify-content: space-between;
+}
+.container > .right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.fab {
+    font-size: 50px;
+}
+a:hover {
+    color: green;
+}
+.column > p:hover {
+    color: green;
+    cursor: pointer;
+}
+.left > p:hover {
+    color: green;
+}
+.about-spotify {
+    width: 100%;
+    display: flex;
+    padding-top: 70px;
+    justify-content: space-between;
+}
+.language {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(163, 161, 161);
+}
+.privacy {
+    display: flex;
+    font-size: 20px;
+    color: rgb(163, 161, 161);
+    justify-content: space-between;
+    margin-left: -30px;
+}
+.privacy > ul {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+.privacy > ul > li:hover {
+    color: green;
+    cursor: pointer;
+}
+.last-one {
+    margin: 0 0 0 auto;
+    font-size: 20px;
+}
+.flag {
+    display: flex;
+    justify-content: flex-end;
+}
+.flag-icon {
+    width: 20px;
+    margin-left: 10px;
+}
+.flag:hover {
+    color:green;
+}
