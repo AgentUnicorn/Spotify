@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Spotify</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/1200px-Spotify_logo_without_text.svg.png" type="image/x-icon">
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="sign-up-head">
+        <a href="index.html">
+            <img class="sign-up-logo" src="signuplogo.png">
+        </a>
+    </div>
+    <div class="sign-up-body">
+        <div class="body-content">
+            <button class="fb-btn">Sign up with facebook</button>
+            <strong><span>or</span></strong>
+            <div class="sign-up-opening">Sign up with your email account</div>
+            <div class="register-form">
+
+                    <input type="email" placeholder="Email"><br><br>
+                    <input type="email" placeholder="Confirm email"><br><br>
+                    <input type="password" placeholder="Password"><br><br>
+                    <input type="text" placeholder="What should we call you?"><br><br>
+                    <div class="date">
+                        <p>Date of birth</p>
+                        <div class="date-position">
+                            <select name="month">
+                                <option value="month">Month</option>
+                                <option value="January">January</option>
+                                <option value="February">February</option>
+                                <option value="March">March</option>
+                                <option value="April">April</option>
+                                <option value="May">May</option>
+                                <option value="June">June</option>
+                                <option value="July">July</option>
+                                <option value="August">August</option>
+                                <option value="September">September</option>
+                                <option value="October">October</option>
+                                <option value="November">November</option>
+                                <option value="December">December</option>
+                            </select>
+                            <input type="number" placeholder="Day" min="1" max="31" step="">
+                            <input type="number" placeholder="Year">
+                        </div><br><br>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="male" name="gender" value="Male"><label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="Female"><label for="female">Female</label>
+                        <input type="radio" id="non-binary" name="gender" value="Non-binary"><label for="non-binary">Non-binary</label>
+                    </div><br>
+                    <div class="checkbox">
+                    <input type="checkbox" id="policy" name="policy"value="true">
+                    <label for="policy">Share my registration data with Spotify's content providers for marketing purposes</label>
+                    </div>
+                    <div class="notice">
+                        By clicking on Sign up, you agree to Spotify's 
+                        <a href="#">Terms and Conditions of Use</a>.
+                        <br><br>
+                        To learn more about how Spotify collects, uses, shares and protects your personal data please read Spotify's 
+                        <a href="#">Privacy Policy</a>.
+                    </div>
+                    <button class="sign-up-btn">Sign up</button>
+                    <div class="sign-in">Already have an account? <a href="#">Log in</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

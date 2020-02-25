@@ -120,7 +120,7 @@ section .container {
 .btn:hover {
     outline: none;
     cursor: pointer;
-    background-color: rgb(92, 250, 92);
+    background-color: black;
 }
 footer .container {
     display: flex;
