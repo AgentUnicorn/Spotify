@@ -3,13 +3,13 @@ body {
     font-family: 'Lato';
 }
 nav {
-    background-color: black;
     height: 60px;
     width: 98.5%;
     padding: 5px;
     position: fixed;
-    opacity: 0.65;
+    background-color:rgba(0,0,0,0.6);
 }
+
 section {
     background-color: orange;
     height: 800px;
@@ -70,6 +70,8 @@ ul > li > a {
 .nav-menu {
     color: white;
     opacity: 1;
+    font-weight: bold;
+    letter-spacing: 0.05cm;
 }
 .nav-menu >li > a {
     color: white;
